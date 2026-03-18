@@ -64,7 +64,7 @@ int main(int argc, char *argv[]){
 		continue;
 	}
 	else if(strcmp(argv[i], "-v") == 0 || strcmp(argv[i], "--version") == 0){
-		printf("yeehaw version: %d\nCLBCabinCrew version: %d\n", YEEHAW_VERSION, CLB_VERSION);
+		printf("yeehaw version: %d\nBLCCabinCrew version: %d\n", YEEHAW_VERSION, CLB_VERSION);
 		continue;
 	}
 	if(strcmp(argv[i], "install") == 0){
